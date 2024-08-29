@@ -35,3 +35,14 @@ Answer :- There are several reasons why useState hook appropriate for handling s
 3. Design a user interface resembling the provided page. Fetch the data from the server and dynamically map the information cards to the fetched data. Ensure that the search functionality is also implemented.
 
 ![Logo](UI-Screen-1.png)
+
+
+## how to run the the frontend
+
+ first make sure you have React installed in your system
+
+ Navigate to frontend folder
+ ## install the Dependencies
+    run command "npm install"
+ ## run frontend
+    run command "npm start"
