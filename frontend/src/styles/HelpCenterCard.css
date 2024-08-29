@@ -1,0 +1,53 @@
+.help-center-card-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    background-color: #fff;
+    justify-content: center; 
+    align-content: center; 
+}
+
+
+.card {
+    background-color: #f8f9fb; 
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 380px;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid #e1e4eb; 
+    height: 150px; 
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
+    color: #333333;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e1e4eb;
+}
+
+.card-description {
+    font-size: 0.95em;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    color: #4a4a4a;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
